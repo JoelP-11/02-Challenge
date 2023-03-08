@@ -10,15 +10,15 @@
     padding: 10px;
 }
 
-title {
-    background-color: darkgrey;
+.title {
+    background-color: black;
     font-size: 60px;
 }
-body {
+.body {
     background-color:ivory;
 }
 
-header {
+.header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -27,7 +27,7 @@ header {
     font-family: var(--font-family);
     padding: 10px 50px;
 }
-header h1 {
+.header h1 {
     display: inline-block;
     background-color:crimson;
     font-family: var(--font-family);
@@ -37,10 +37,10 @@ header h1 {
 
 }
 
-nav ul {
+.nav ul {
     display: flex;
     flex-wrap: wrap;
-    text-decoration: underlline;
+    text-decoration: underline;
     text-underline-offset: 5px;
     list-style-type: none;
 }
@@ -50,7 +50,7 @@ nav ul {
     margin: 0px;
     padding: 0px;
 }
-nav ul a {
+.nav ul a {
     padding: 20px;
     display: flex;
     font-size:20px;
@@ -68,7 +68,7 @@ nav ul a {
     align-items: flex-end;
 }
 
-.hero h2 {
+.hero-h2 {
     font-size: 25px;
     background-color: ivory;
     padding: 20px;
@@ -76,7 +76,7 @@ nav ul a {
     margin-bottom: 20px;
 }
 
-.about me {
+.about-me {
     display: flex;
     flex-wrap: wrap;
     margin-top: 20px;
