@@ -1,46 +1,55 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
 * {
     box-sizing: border-box;
     margin: 7px;
     padding: 1px;
 }
 
-
-
-
-
-
-
-
 #projects {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 #projects a {
-    flex-basis: 50%;
+    /* flex-basis: 50%;
     justify-content: flex-end;
     align-items: end;
-    height: 100px;
+    height: 200px; */
+    outline: 1px solid red;
 }
 
-#projects a:first-child {
+#Project1 {
     flex-basis: 100%;
-    height: 250px;
+    height: 550px;
+}
+#Project1 div {
+background-image: url(./images/andy-holmes-jo07ANyt7Aw-unsplash.jpg);
+height: 550px;
+background-size: cover;
+background-position: center;
 }
 
+#Project2 div {
+    background-image: url(./images/billy-huynh-W8KTS-mhFUE-unsplash.jpg);
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    }
+    #Project3 div {
+        background-image: url(./images/billy-huynh-W8KTS-mhFUE-unsplash.jpg);
+        height: 200px;
+        background-size: cover;
+        background-position: center;
+        }
+.row {
+ width: 100%;
+ display: flex;
+ flex-direction: row;
+ outline: 1px solid blue;
+ justify-content: space-between;
+}
+.row a {
+    width: 50%;
+}
 p {
     padding: 0px 30px 10px 30px;
 }
