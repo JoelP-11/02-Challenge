@@ -16,6 +16,13 @@
 
 }
 
+.subtitle {
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
 .section-content {
     text-align:justify;
 
