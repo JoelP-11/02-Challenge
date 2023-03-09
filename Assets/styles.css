@@ -7,6 +7,22 @@
     background-image: url(./images/orion-gf2e3dd8de_1920.jpg);
 }
 
+.title {
+outline: 1px solid red;
+}
+
+.nav {
+    outline: 1px solid red;
+    list-style-type: none;
+    text-align: right;
+    display:block;
+
+}
+
+.section-content {
+    text-align:justify;
+
+}
 #projects {
     display: flex;
     flex-direction: column;
@@ -87,4 +103,11 @@
 
 p {
     padding: 0px 30px 10px 30px;
+}
+
+.nav2 {
+    outline: 1px solid red;
+    list-style-type: none;
+    text-align: right;
+    display:block;
 }
